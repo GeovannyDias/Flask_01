@@ -28,7 +28,8 @@ pip install flask-mysqldb
 Note Geo:
 1.	Instalar python en su version mas reciente 3.x.x
 2.	Instalar pip
-3.	Mediante pip instalamos virtualenv pip install virtualenv (https://docs.python.org/3/tutorial/venv.html)
+3.	Mediante pip instalamos virtualenv pip install virtualenv 
+    (https://docs.python.org/3/tutorial/venv.html)
 4.	Creamos el ambiente basándonos en el ambiente virtual
 5.	Ejecutamos el siguiente comando Python -m venv name_folder-env
 6.	Para activar el ambiente virutal de Python ejecutamos el siguiente archivo.
