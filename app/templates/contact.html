@@ -1,0 +1,15 @@
+<!-- Heredar desde una plantilla -->
+{% extends './layout.html' %}
+
+{% block title %}{{ data.title }}{% endblock %}
+
+{% block body %}
+
+<label for=""><b>Nombre:</b></label>
+<p>{{ data.name }}</p>
+
+<label for=""><b>Edad:</b></label>
+<p>{{ data.edad }}</p>
+
+
+{% endblock %}

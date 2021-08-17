@@ -1,0 +1,20 @@
+<!-- Heredar desde una plantilla -->
+{% extends './layout.html' %}
+
+{% block title %}{{ data.title }}{% endblock %}
+
+{% block body %}
+
+    <h1>{{ data.welcome }}</h1>
+
+    {% if data.num_cursos > 0 %}
+    <ul>
+        {% for c in data.cursos %}
+        <li>{{ c }}</li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <h2>No existen cursos disponibles...</h2>
+    {% endif%}
+
+{% endblock %}
